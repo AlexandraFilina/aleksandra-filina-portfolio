@@ -1,0 +1,35 @@
+.cases-page { border-top: 1px solid #e7e7e7; }
+.case-inner {
+  max-width: 1600px;
+  min-height: 620px;
+  margin: auto;
+  padding: clamp(80px, 10vw, 150px) clamp(32px, 6vw, 100px);
+  display: flex;
+  align-items: center;
+  gap: clamp(40px, 7vw, 110px);
+}
+.case-title-block { display: flex; align-items: flex-start; flex: 0 0 auto; }
+.case-title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font: 800 30px/1 Manrope, sans-serif;
+  margin: 0;
+}
+.case-line { margin-left: 17px; width: 7px; height: 90px; background: #111; }
+.experience-content { flex: 1; min-width: 0; text-align: left; }
+.experience-intro { max-width: 540px; font: 300 clamp(18px, 2vw, 26px)/1.45 Manrope, sans-serif; margin: 0 0 38px; }
+.experience-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.experience-card { padding: 25px 22px; border: 1px solid #e9e9e9; border-radius: 11px; }
+.experience-period { font: 600 10px/1.4 Manrope, sans-serif; text-transform: uppercase; letter-spacing: .05em; color: #6a6a6a; }
+.experience-card h3 { font: 700 18px/1.3 Manrope, sans-serif; margin: 16px 0 12px; }
+.experience-card p { font: 300 13px/1.7 Manrope, sans-serif; margin: 0; color: #4d4d4d; }
+.education-note { display: flex; flex-wrap: wrap; gap: 5px 18px; border-top: 1px solid #ddd; padding-top: 25px; margin-top: 35px; font: 300 13px/1.5 Manrope, sans-serif; }
+.education-note strong { font-weight: 700; }
+@media (max-width: 1000px) { .experience-grid { grid-template-columns: 1fr; } .case-inner { align-items: flex-start; } }
+@media (max-width: 700px) {
+  .case-inner { display: block; padding: 75px 22px; }
+  .case-title-block { display: block; margin-bottom: 38px; }
+  .case-title { writing-mode: initial; transform: none; }
+  .case-line { display: block; width: 90px; height: 7px; margin: 17px 0 0; }
+  .experience-intro { font-size: 19px; }
+}

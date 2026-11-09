@@ -1,0 +1,36 @@
+.card {
+    width: 281px;
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 67px; */
+}
+
+.card img {
+    margin-bottom: 13px;
+}
+
+.card span {
+    font-family: Manrope;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Carousel{
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    gap: 67px;
+}
+
+.card:last-child{
+    padding-right: 67px;
+}
+
+.Carousel::-webkit-scrollbar {
+    display: none;
+}

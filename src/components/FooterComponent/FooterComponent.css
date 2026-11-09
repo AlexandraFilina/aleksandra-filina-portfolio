@@ -1,0 +1,5 @@
+.footer { padding: 35px clamp(22px, 6vw, 100px) 50px; }
+.footer-block { max-width: 1600px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.footer-block .logo { margin: 0; }
+.footer-text { font: 300 12px/1.4 Manrope, sans-serif; }
+.footer-text-me { font-weight: 700; }
