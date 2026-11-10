@@ -2,10 +2,10 @@ import "./AboutComponent.css";
 import photo from "../../pixelsasha.PNG";
 
 const strengths = [
-  { number: "01", title: "Frontend", detail: "JavaScript, TypeScript, React & Next.js" },
-  { number: "02", title: "UI implementation", detail: "Design to code, responsive HTML & CSS" },
-  { number: "03", title: "Problem solving", detail: "Structured thinking, attention to detail" },
-  { number: "04", title: "Workflow", detail: "Git/GitHub, independent delivery, AI-assisted tools" },
+  { number: "01", title: "Software development", detail: "JavaScript, TypeScript, React & Next.js" },
+  { number: "02", title: "Web interfaces", detail: "Responsive HTML & CSS, Figma to code" },
+  { number: "03", title: "Data & APIs", detail: "SQL, REST APIs, structured problem solving" },
+  { number: "04", title: "Development workflow", detail: "Git/GitHub, AI-assisted development" },
 ];
 
 function About() {
@@ -20,9 +20,9 @@ function About() {
           <img src={photo} alt="Pixel portrait of Aleksandra Filina" />
           <div className="profile-text">
             <h3>Aleksandra Filina</h3>
-            <p>I am a frontend developer based in Valencia, Spain, with a degree in Applied Mathematics and Computer Science. My background in technical and visual projects shapes how I build interfaces: with structured problem solving, attention to detail and a strong sense of composition.</p>
-            <p>I develop hands-on projects with JavaScript, TypeScript, React, Next.js, HTML and CSS, using Git/GitHub and AI-assisted development tools. I enjoy turning ideas and designs into clear, responsive web experiences.</p>
-            <p>Before focusing on frontend, I managed creative projects and worked in information security. Those roles strengthened my ability to organize workflows, meet deadlines and communicate clearly. I am looking for a Frontend Developer role in Valencia or remotely, where I can contribute to a team and continue growing.</p>
+            <p>I am a software developer based in Valencia, Spain, with a degree in Applied Mathematics and Computer Science. My background in technical and visual projects shapes how I work: with structured problem solving, attention to detail and a strong sense of composition.</p>
+            <p>My current focus is building web applications with JavaScript, TypeScript, React, Next.js, HTML and CSS. I also work with REST APIs, SQL, Git/GitHub and AI-assisted development tools. I enjoy turning ideas and designs into clear, responsive experiences.</p>
+            <p>Before moving into software development, I managed creative projects and worked in information security. Those roles strengthened my ability to organize workflows, meet deadlines and communicate clearly. I am looking for a Software Developer role in Valencia or remotely, where I can contribute to a team and continue growing.</p>
             <div className="profile-social">
               <a href="https://www.linkedin.com/in/alexandra-filina/" target="_blank" rel="noreferrer">LinkedIn</a>
               <a href="https://github.com/AlexandraFilina" target="_blank" rel="noreferrer">GitHub</a>
@@ -43,21 +43,22 @@ function About() {
         </div>
         <div className="experience-blocks">
           <div className="experience-block">
-            <h4>Building with</h4>
+            <h4>Development skills</h4>
             <ul>
-              <li>JavaScript & TypeScript</li>
+              <li>JavaScript &amp; TypeScript</li>
               <li>React & Next.js</li>
-              <li>HTML & CSS</li>
-              <li>Git & GitHub</li>
+              <li>HTML &amp; CSS</li>
+              <li>REST APIs &amp; SQL</li>
             </ul>
           </div>
           <div className="experience-block">
-            <h4>From design to code</h4>
+            <h4>Tools &amp; visual work</h4>
             <ul>
-              <li>Figma-based layouts</li>
+              <li>Git &amp; GitHub</li>
+              <li>AI-assisted development tools</li>
+              <li>Figma to code</li>
               <li>Responsive interfaces</li>
-              <li>Reusable components</li>
-              <li>Visual consistency</li>
+              <li>Adobe Photoshop &amp; image editing</li>
             </ul>
           </div>
           <div className="experience-block">
@@ -67,6 +68,7 @@ function About() {
               <li>Clear client communication</li>
               <li>Independent workflows</li>
               <li>Attention to detail</li>
+              <li>Access management &amp; data protection</li>
             </ul>
           </div>
         </div>

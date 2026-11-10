@@ -1,6 +1,6 @@
 import "./ProjectsComponent.css";
-import arandanoPreview from "../../arandano-preview.png";
-import selfLabPreview from "../../self-lab-preview.png";
+import arandanoPreview from "../../arandano-app-preview.png";
+import selfLabPreview from "../../self-lab-app-preview.png";
 
 const projects = [
   {
@@ -8,7 +8,7 @@ const projects = [
     subtitle: "A focus space for everyday work",
     description: "A blueberry-themed Pomodoro app with a timer, daily tasks, notes, settings and account-based progress.",
     image: arandanoPreview,
-    alt: "Arandano Timer sign-in screen",
+    alt: "Arandano Timer app with focus timer, task list and notes",
     tags: ["Next.js", "React", "TypeScript"],
     href: "https://arandano-timer.vercel.app/",
   },
@@ -17,7 +17,7 @@ const projects = [
     subtitle: "Personal habit experiments",
     description: "A place to track everyday experiments, record check-ins and compare how different habits relate to the metrics you choose.",
     image: selfLabPreview,
-    alt: "Self Lab sign-in screen",
+    alt: "Self Lab habit experiment with progress and observation chart",
     tags: ["Next.js", "React", "TypeScript"],
     href: "https://self-lab-six.vercel.app/",
   },

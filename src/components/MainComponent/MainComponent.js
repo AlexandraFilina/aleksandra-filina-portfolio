@@ -6,7 +6,7 @@ function Main() {
     <section className="main-page" id="home">
       <div className="title-block">
         <div className="hero-kicker">Aleksandra Filina / Portfolio</div>
-        <h1>frontend developer</h1>
+        <h1>software developer</h1>
         <div className="title-line blink" aria-hidden="true" />
       </div>
 

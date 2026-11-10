@@ -1,6 +1,6 @@
-# Aleksandra Filina — Frontend Portfolio
+# Aleksandra Filina — Software Developer Portfolio
 
-Personal frontend portfolio for Aleksandra Filina, based in Valencia, Spain. The layout began as a Figma-to-code practice project and was adapted with original content, two live projects, professional experience, and responsive navigation.
+Personal portfolio for Aleksandra Filina, a software developer based in Valencia, Spain. The layout began as a Figma-to-code practice project and was adapted with original content, two live projects, professional experience, and responsive navigation.
 
 **Live site:** https://aleksandra-filina-portfolio.vercel.app/
 

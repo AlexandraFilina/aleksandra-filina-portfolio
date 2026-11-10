@@ -27,7 +27,7 @@ function Cases() {
           <span className="case-line" aria-hidden="true" />
         </div>
         <div className="experience-content">
-          <p className="experience-intro">Creative project ownership and technical operations inform how I work as a frontend developer.</p>
+          <p className="experience-intro">Creative project ownership and technical operations inform how I work as a software developer.</p>
           <div className="experience-grid">
             {experience.map((role) => (
               <article className="experience-card" key={role.period}>

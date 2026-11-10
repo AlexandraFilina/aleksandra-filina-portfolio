@@ -3,8 +3,8 @@ import "./MenuComponent.css";
 const links = [
   ["contact", "#contact"],
   ["experience", "#experience"],
-  ["projects", "#projects"],
   ["about", "#about"],
+  ["projects", "#projects"],
   ["home", "#home"],
 ];
 

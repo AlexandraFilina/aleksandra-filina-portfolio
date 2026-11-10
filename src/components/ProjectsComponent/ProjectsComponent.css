@@ -5,7 +5,7 @@
 .projects-line { display: inline-block; margin-top: 20px; width: 90px; height: 7px; background: #111; }
 .tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 65px); margin-top: 75px; }
 .tile { min-width: 0; text-align: left; }
-.project-image-link { display: block; height: clamp(235px, 27vw, 365px); overflow: hidden; border: 1px solid #eee; border-radius: 12px; background: #f5f5f5; }
+.project-image-link { display: block; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid #eee; border-radius: 12px; background: #f5f5f5; }
 .project-image-link img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
 .project-image-link:hover img { transform: scale(1.025); }
 .tile-content { padding: 26px 4px 0; }
@@ -20,7 +20,6 @@
 @media (max-width: 700px) {
   .projects-inner { padding: 75px 22px 85px; }
   .tiles { grid-template-columns: 1fr; margin-top: 45px; gap: 65px; }
-  .project-image-link { height: 240px; }
   .projects-note { margin-top: 60px; }
 }
 @media (prefers-reduced-motion: reduce) { .project-image-link img { transition: none; } }

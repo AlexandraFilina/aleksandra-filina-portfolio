@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import "./FloatingNav.css";
 
 const sections = [
-  { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
+  { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
   { id: "contact", label: "Contact" },
 ];
